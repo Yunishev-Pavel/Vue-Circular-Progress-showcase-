@@ -1,0 +1,12 @@
+* {
+ font-family: "JetBrains Mono" monospace;
+ -webkit-font-smoothing: antialiased;
+ -moz-osx-font-smoothing: grayscale;
+ margin: 0;
+ padding: 0;
+}
+
+main{
+    max-width: 450px;
+    margin: 0 auto;
+}
