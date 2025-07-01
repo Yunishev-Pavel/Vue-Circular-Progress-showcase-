@@ -1,33 +1,33 @@
-<<<<<<< HEAD
-# Vue-Circular-Progress-showcase-
-=======
-# vue
+# Vue Progress Showcase
 
-This template should help get you started developing with Vue 3 in Vite.
+🚀 Vue 3 showcase-проект с двумя компонентами:
+1. **Круговой прогресс-бар** на SVG
+2. **Круговая диаграмма** на Chart.js с редактором данных
 
-## Recommended IDE Setup
+## 🔧 Технологии
+- Vue 3 (Composition API)
+- SVG-анимации
+- Chart.js
+- vue-colour-picker
+- Адаптивная вёрстка
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## 📺 Страницы
 
-## Customize configuration
+### ▶️ `/progress`
+Интерактивный круговой прогресс-бар:
+- 4 состояния: `in-progress`, `success`, `warning`, `error`
+- Анимация значений и статуса
+- Плавный переход цвета от красного к зелёному
+- Режим **Dashboard** (полукруг)
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+### 📊 `/chart`
+Круговая диаграмма:
+- Основана на `Chart.js`
+- Добавление/удаление/редактирование сегментов
+- Выбор цвета через `vue-colour-picker`
 
-## Project Setup
+## 🛠️ Установка
 
-```sh
+```bash
 npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
 npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
->>>>>>> a4d98bf (Initial commit)
