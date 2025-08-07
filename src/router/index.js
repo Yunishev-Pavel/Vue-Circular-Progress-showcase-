@@ -1,8 +1,10 @@
-import { createRouter, createWebHistory } from "vue-router";
+import { createRouter, createWebHistory } from 'vue-router';
+import { PATH } from './path';
+import HomePage from '@/pages/HomePage.vue';
 
 const routes = [
-  { path: "/", component: () => import("@/pages/HomePage.vue") },
-  { path: "/pie", component: () => import("@/pages/PieChartPage.vue") },
+  { path: PATH.home, component: HomePage },
+  { path: PATH.pie, component: () => import('@/pages/PieChartPage.vue') },
 ];
 
 export default createRouter({
